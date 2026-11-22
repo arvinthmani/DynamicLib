@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/arvinthmani/StaticLib.git",
-                 exact: "1.2.0")
+                 branch: "main")
         ],
     targets: [
         .target(name: "DynamicTest",

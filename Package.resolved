@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/arvinthmani/StaticLib.git",
       "state" : {
-        "revision" : "43c5c1fd2be8553180f417aca6e7f15a6579093f",
-        "version" : "1.2.0"
+        "branch" : "main",
+        "revision" : "e9af62a8aa1247c2a679303dc79c6d5daa5a2581"
       }
     }
   ],
