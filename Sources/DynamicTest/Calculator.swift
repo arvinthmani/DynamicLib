@@ -1,14 +1,12 @@
-public final class Calculator {
+import StaticLib
+
+public final class Calculator2 {
 
     public init() {}
 
     public func calculate() -> Int {
-        var result = 0
+        let calc = Calculator()
 
-        for i in 0..<1_000 {
-            result += i
-        }
-
-        return result
+        return calc.calculate()
     }
 }

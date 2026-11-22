@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/StaticLib-primary.dia",
+    "emit-module-dependencies" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/StaticLib-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/StaticLib-primary-emit-module.dia",
+    "pch" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/StaticLib-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/StaticLib-primary.swiftdeps"
+  },
+  "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/checkouts/StaticLib/Sources/StaticLib/Calculator.swift" : {
+    "const-values" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.swiftconstvalues",
+    "dependencies" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.d",
+    "diagnostics" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.dia",
+    "index-unit-output-path" : "/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.o",
+    "llvm-bc" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.bc",
+    "object" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.o",
+    "swift-dependencies" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator.swiftdeps",
+    "swiftmodule" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/.build/out/Intermediates.noindex/StaticLib.build/Debug/StaticLib-t.build/Objects-normal/arm64/Calculator~partial.swiftmodule"
+  }
+}

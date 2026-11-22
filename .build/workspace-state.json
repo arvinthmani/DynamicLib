@@ -4,7 +4,23 @@
 
     ],
     "dependencies" : [
-
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "staticlib",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/arvinthmani/StaticLib.git",
+          "name" : "StaticLib"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "43c5c1fd2be8553180f417aca6e7f15a6579093f",
+            "version" : "1.2.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "StaticLib"
+      }
     ],
     "prebuilts" : [
 

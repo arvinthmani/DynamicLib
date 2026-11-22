@@ -1,0 +1,4 @@
+module StaticLib {
+header "StaticLib-Swift.h"
+export *
+}
