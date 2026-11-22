@@ -5,7 +5,7 @@ public final class Calculator {
     public func calculate() -> Int {
         var result = 0
 
-        for i in 0..<1_000_000 {
+        for i in 0..<1_000 {
             result += i
         }
 

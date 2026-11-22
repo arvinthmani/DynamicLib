@@ -1,0 +1,4 @@
+module DynamicTest {
+header "DynamicTest-Swift.h"
+export *
+}

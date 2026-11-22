@@ -1,15 +1,15 @@
 [
   {
     "contents" : {
-      "guid" : "Workspace:/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy",
-      "name" : "ArviCoreDy",
-      "path" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy",
+      "guid" : "Workspace:/Users/arvinth/Desktop/iOSLib/DynLibTest",
+      "name" : "DynamicTest",
+      "path" : "/Users/arvinth/Desktop/iOSLib/DynLibTest",
       "projects" : [
-        "d7d53719da9708988a13a93e2645787eef472821900571f8dd0c52d4e998018e",
-        "f7328028381b0b43413b70644c9bd93eb5cafee6e72d1c678a66dd8b0734a9f0"
+        "e3fa07c944c42aa5b7da35e65d8df2c07a5cf11959e2b13cfdc30dff5b988841",
+        "3d6fe00422f1501b3481023020f672141cc6de56c394f26272aa3167daab96cc"
       ]
     },
-    "signature" : "3a13743b360f3e8c25aa59c59a8c2bd8200415d9f4eb5b49a33c1595c9e7b353",
+    "signature" : "1738702365011b36f5b9b63fb51a24267e11ed460554f4a4ee876cae914b5063",
     "type" : "workspace"
   },
   {
@@ -85,7 +85,7 @@
             "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
             "XROS_DEPLOYMENT_TARGET" : "1.0"
           },
-          "guid" : "PACKAGE:arvicoredy::BUILDCONFIG_0",
+          "guid" : "PACKAGE:dynlibtest::BUILDCONFIG_0",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -158,7 +158,7 @@
             "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
             "XROS_DEPLOYMENT_TARGET" : "1.0"
           },
-          "guid" : "PACKAGE:arvicoredy::BUILDCONFIG_1",
+          "guid" : "PACKAGE:dynlibtest::BUILDCONFIG_1",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -174,7 +174,7 @@
             "children" : [
 
             ],
-            "guid" : "PACKAGE:arvicoredy::MAINGROUP::REF_0",
+            "guid" : "PACKAGE:dynlibtest::MAINGROUP::REF_0",
             "name" : "AdditionalFiles",
             "path" : "/",
             "sourceTree" : "<absolute>",
@@ -184,7 +184,7 @@
             "children" : [
 
             ],
-            "guid" : "PACKAGE:arvicoredy::MAINGROUP::REF_1",
+            "guid" : "PACKAGE:dynlibtest::MAINGROUP::REF_1",
             "name" : "Binaries",
             "path" : "/",
             "sourceTree" : "<absolute>",
@@ -194,38 +194,38 @@
             "children" : [
               {
                 "fileType" : "sourcecode.swift",
-                "guid" : "PACKAGE:arvicoredy::MAINGROUP::REF_2::REF_0",
+                "guid" : "PACKAGE:dynlibtest::MAINGROUP::REF_2::REF_0",
                 "name" : "Calculator.swift",
                 "path" : "Calculator.swift",
                 "sourceTree" : "<group>",
                 "type" : "file"
               }
             ],
-            "guid" : "PACKAGE:arvicoredy::MAINGROUP::REF_2",
-            "name" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy/Sources/ArviCoreDy",
-            "path" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy/Sources/ArviCoreDy",
+            "guid" : "PACKAGE:dynlibtest::MAINGROUP::REF_2",
+            "name" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/Sources/DynamicTest",
+            "path" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/Sources/DynamicTest",
             "sourceTree" : "<absolute>",
             "type" : "group"
           }
         ],
-        "guid" : "PACKAGE:arvicoredy::MAINGROUP",
+        "guid" : "PACKAGE:dynlibtest::MAINGROUP",
         "name" : "",
         "path" : "",
         "sourceTree" : "<group>",
         "type" : "group"
       },
-      "guid" : "PACKAGE:arvicoredy",
-      "path" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy/Package.swift",
-      "projectDirectory" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy",
+      "guid" : "PACKAGE:dynlibtest",
+      "path" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/Package.swift",
+      "projectDirectory" : "/Users/arvinth/Desktop/iOSLib/DynLibTest",
       "projectIsPackage" : "true",
-      "projectName" : "ArviCoreDy",
+      "projectName" : "DynamicTest",
       "targets" : [
-        "bfe521f9b843d3f70a9d67abb1c939413b5e629054393e63fc19079b6871b14b",
-        "9251fa1b690ca921324270d8c3c07f9cf1073e05b81a736e4265009d0ca3ed0e",
-        "a0158eebc4a2e436c28f7e4fcbbbf5f34e651b6bb71ce15aac452430983f4229"
+        "32866557335c60259582b41392cf6b290ea6cfd417e1cad990abdddbec379b3c",
+        "633b499f0c23a6e3edbb4bd076408bdb4a1de9acc89951e00e1dbb14e25a34c3",
+        "7dfbb0f124a84f66c651f7dfbc7d01381139b18cf3997856ada131032bb84dad"
       ]
     },
-    "signature" : "d7d53719da9708988a13a93e2645787eef472821900571f8dd0c52d4e998018e",
+    "signature" : "e3fa07c944c42aa5b7da35e65d8df2c07a5cf11959e2b13cfdc30dff5b988841",
     "type" : "project"
   },
   {
@@ -236,17 +236,17 @@
           "buildSettings" : {
             "EXECUTABLE_PREFIX" : "lib",
             "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "arvicoredy.ArviCoreDy",
-            "PRODUCT_MODULE_NAME" : "ArviCoreDy",
-            "PRODUCT_NAME" : "ArviCoreDy",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "dynlibtest.DynamicTest",
+            "PRODUCT_MODULE_NAME" : "DynamicTest",
+            "PRODUCT_NAME" : "DynamicTest",
             "SDKROOT" : "auto",
             "SDK_VARIANT" : "auto",
-            "SWIFT_PACKAGE_NAME" : "arvicoredy",
-            "TARGET_NAME" : "ArviCoreDy-product",
+            "SWIFT_PACKAGE_NAME" : "dynlibtest",
+            "TARGET_NAME" : "DynamicTest-product",
             "TARGET_TEMP_DIR_SUFFIX" : "-t",
             "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
           },
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy::BUILDCONFIG_0",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest::BUILDCONFIG_0",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -258,17 +258,17 @@
           "buildSettings" : {
             "EXECUTABLE_PREFIX" : "lib",
             "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "arvicoredy.ArviCoreDy",
-            "PRODUCT_MODULE_NAME" : "ArviCoreDy",
-            "PRODUCT_NAME" : "ArviCoreDy",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "dynlibtest.DynamicTest",
+            "PRODUCT_MODULE_NAME" : "DynamicTest",
+            "PRODUCT_NAME" : "DynamicTest",
             "SDKROOT" : "auto",
             "SDK_VARIANT" : "auto",
-            "SWIFT_PACKAGE_NAME" : "arvicoredy",
-            "TARGET_NAME" : "ArviCoreDy-product",
+            "SWIFT_PACKAGE_NAME" : "dynlibtest",
+            "TARGET_NAME" : "DynamicTest-product",
             "TARGET_TEMP_DIR_SUFFIX" : "-t",
             "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
           },
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy::BUILDCONFIG_1",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest::BUILDCONFIG_1",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -281,21 +281,21 @@
         {
           "buildFiles" : [
             {
-              "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy::BUILDPHASE_0::0",
+              "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest::BUILDPHASE_0::0",
               "platformFilters" : [
 
               ],
-              "targetReference" : "PACKAGE-TARGET:ArviCoreDy"
+              "targetReference" : "PACKAGE-TARGET:DynamicTest"
             }
           ],
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy::BUILDPHASE_0",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest::BUILDPHASE_0",
           "type" : "com.apple.buildphase.frameworks"
         },
         {
           "buildFiles" : [
 
           ],
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy::BUILDPHASE_1",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest::BUILDPHASE_1",
           "type" : "com.apple.buildphase.sources"
         }
       ],
@@ -307,23 +307,23 @@
       ],
       "dependencies" : [
         {
-          "guid" : "PACKAGE-TARGET:ArviCoreDy",
+          "guid" : "PACKAGE-TARGET:DynamicTest",
           "platformFilters" : [
 
           ]
         }
       ],
-      "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy",
-      "name" : "ArviCoreDy-product",
+      "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest",
+      "name" : "DynamicTest-product",
       "productReference" : {
-        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy",
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest",
         "name" : "$(EXECUTABLE_NAME)",
         "type" : "file"
       },
       "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
       "type" : "standard"
     },
-    "signature" : "bfe521f9b843d3f70a9d67abb1c939413b5e629054393e63fc19079b6871b14b",
+    "signature" : "32866557335c60259582b41392cf6b290ea6cfd417e1cad990abdddbec379b3c",
     "type" : "target"
   },
   {
@@ -335,12 +335,12 @@
             "DEFINES_MODULE" : "YES",
             "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
             "GENERATE_PRELINK_OBJECT_FILE" : "NO",
-            "MODULEMAP_FILE_CONTENTS" : "module ArviCoreDy {\nheader \"ArviCoreDy-Swift.h\"\nexport *\n}",
-            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ArviCoreDy.modulemap",
+            "MODULEMAP_FILE_CONTENTS" : "module DynamicTest {\nheader \"DynamicTest-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/DynamicTest.modulemap",
             "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
             "PACKAGE_TARGET_NAME_CONFLICTS_WITH_PRODUCT_NAME" : "YES",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "arvicoredy.ArviCoreDy",
-            "PRODUCT_MODULE_NAME" : "ArviCoreDy",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "dynlibtest.DynamicTest",
+            "PRODUCT_MODULE_NAME" : "DynamicTest",
             "PRODUCT_NAME" : "$(TARGET_NAME)",
             "SDKROOT" : "auto",
             "SDK_VARIANT" : "auto",
@@ -355,16 +355,16 @@
             "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
             "SWIFT_LIBRARIES_ONLY" : "YES",
             "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
-            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ArviCoreDy-Swift.h",
-            "SWIFT_PACKAGE_NAME" : "arvicoredy",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "DynamicTest-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "dynlibtest",
             "SWIFT_VERSION" : "5",
-            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ArviCoreDy.symbolgraphs",
-            "TAPI_DYLIB_INSTALL_NAME" : "ArviCoreDy",
-            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ArviCoreDy.symbolgraphs",
-            "TARGET_NAME" : "ArviCoreDy",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/DynamicTest.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "DynamicTest",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/DynamicTest.symbolgraphs",
+            "TARGET_NAME" : "DynamicTest",
             "TARGET_TEMP_DIR_SUFFIX" : "-t"
           },
-          "guid" : "PACKAGE-TARGET:ArviCoreDy::BUILDCONFIG_0",
+          "guid" : "PACKAGE-TARGET:DynamicTest::BUILDCONFIG_0",
           "impartedBuildProperties" : {
             "buildSettings" : {
               "FRAMEWORK_SEARCH_PATHS" : [
@@ -378,7 +378,7 @@
               ],
               "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
               "OTHER_CFLAGS" : [
-                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ArviCoreDy.modulemap",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/DynamicTest.modulemap",
                 "$(inherited)"
               ]
             }
@@ -390,12 +390,12 @@
             "DEFINES_MODULE" : "YES",
             "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
             "GENERATE_PRELINK_OBJECT_FILE" : "NO",
-            "MODULEMAP_FILE_CONTENTS" : "module ArviCoreDy {\nheader \"ArviCoreDy-Swift.h\"\nexport *\n}",
-            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/ArviCoreDy.modulemap",
+            "MODULEMAP_FILE_CONTENTS" : "module DynamicTest {\nheader \"DynamicTest-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/DynamicTest.modulemap",
             "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
             "PACKAGE_TARGET_NAME_CONFLICTS_WITH_PRODUCT_NAME" : "YES",
-            "PRODUCT_BUNDLE_IDENTIFIER" : "arvicoredy.ArviCoreDy",
-            "PRODUCT_MODULE_NAME" : "ArviCoreDy",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "dynlibtest.DynamicTest",
+            "PRODUCT_MODULE_NAME" : "DynamicTest",
             "PRODUCT_NAME" : "$(TARGET_NAME)",
             "SDKROOT" : "auto",
             "SDK_VARIANT" : "auto",
@@ -410,16 +410,16 @@
             "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
             "SWIFT_LIBRARIES_ONLY" : "YES",
             "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
-            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "ArviCoreDy-Swift.h",
-            "SWIFT_PACKAGE_NAME" : "arvicoredy",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "DynamicTest-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "dynlibtest",
             "SWIFT_VERSION" : "5",
-            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ArviCoreDy.symbolgraphs",
-            "TAPI_DYLIB_INSTALL_NAME" : "ArviCoreDy",
-            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/ArviCoreDy.symbolgraphs",
-            "TARGET_NAME" : "ArviCoreDy",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/DynamicTest.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "DynamicTest",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/DynamicTest.symbolgraphs",
+            "TARGET_NAME" : "DynamicTest",
             "TARGET_TEMP_DIR_SUFFIX" : "-t"
           },
-          "guid" : "PACKAGE-TARGET:ArviCoreDy::BUILDCONFIG_1",
+          "guid" : "PACKAGE-TARGET:DynamicTest::BUILDCONFIG_1",
           "impartedBuildProperties" : {
             "buildSettings" : {
               "FRAMEWORK_SEARCH_PATHS" : [
@@ -432,7 +432,7 @@
               ],
               "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
               "OTHER_CFLAGS" : [
-                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/ArviCoreDy.modulemap",
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/DynamicTest.modulemap",
                 "$(inherited)"
               ]
             }
@@ -445,15 +445,15 @@
           "buildFiles" : [
             {
               "codeSignOnCopy" : "false",
-              "fileReference" : "PACKAGE:arvicoredy::MAINGROUP::REF_2::REF_0",
-              "guid" : "PACKAGE-TARGET:ArviCoreDy::BUILDPHASE_0::0",
+              "fileReference" : "PACKAGE:dynlibtest::MAINGROUP::REF_2::REF_0",
+              "guid" : "PACKAGE-TARGET:DynamicTest::BUILDPHASE_0::0",
               "platformFilters" : [
 
               ],
               "removeHeadersOnCopy" : "false"
             }
           ],
-          "guid" : "PACKAGE-TARGET:ArviCoreDy::BUILDPHASE_0",
+          "guid" : "PACKAGE-TARGET:DynamicTest::BUILDPHASE_0",
           "type" : "com.apple.buildphase.sources"
         }
       ],
@@ -466,17 +466,17 @@
       "dependencies" : [
 
       ],
-      "guid" : "PACKAGE-TARGET:ArviCoreDy",
-      "name" : "ArviCoreDy",
+      "guid" : "PACKAGE-TARGET:DynamicTest",
+      "name" : "DynamicTest",
       "productReference" : {
-        "guid" : "PRODUCTREF-PACKAGE-TARGET:ArviCoreDy",
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:DynamicTest",
         "name" : "$(EXECUTABLE_NAME)",
         "type" : "file"
       },
       "productTypeIdentifier" : "org.swift.product-type.library.static",
       "type" : "standard"
     },
-    "signature" : "9251fa1b690ca921324270d8c3c07f9cf1073e05b81a736e4265009d0ca3ed0e",
+    "signature" : "633b499f0c23a6e3edbb4bd076408bdb4a1de9acc89951e00e1dbb14e25a34c3",
     "type" : "target"
   },
   {
@@ -486,7 +486,7 @@
           "buildSettings" : {
 
           },
-          "guid" : "PACKAGE-PRODUCT:arvicoredy-ArviCoreDyPackageTests.ArviCoreDyPackageTests::BUILDCONFIG_0",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest-DynamicTestPackageTests.DynamicTestPackageTests::BUILDCONFIG_0",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -498,7 +498,7 @@
           "buildSettings" : {
 
           },
-          "guid" : "PACKAGE-PRODUCT:arvicoredy-ArviCoreDyPackageTests.ArviCoreDyPackageTests::BUILDCONFIG_1",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest-DynamicTestPackageTests.DynamicTestPackageTests::BUILDCONFIG_1",
           "impartedBuildProperties" : {
             "buildSettings" : {
 
@@ -519,11 +519,11 @@
       "dependencies" : [
 
       ],
-      "guid" : "PACKAGE-PRODUCT:arvicoredy-ArviCoreDyPackageTests.ArviCoreDyPackageTests",
-      "name" : "ArviCoreDyPackageTests-product",
+      "guid" : "PACKAGE-PRODUCT:dynlibtest-DynamicTestPackageTests.DynamicTestPackageTests",
+      "name" : "DynamicTestPackageTests-product",
       "type" : "aggregate"
     },
-    "signature" : "a0158eebc4a2e436c28f7e4fcbbbf5f34e651b6bb71ce15aac452430983f4229",
+    "signature" : "7dfbb0f124a84f66c651f7dfbc7d01381139b18cf3997856ada131032bb84dad",
     "type" : "target"
   },
   {
@@ -579,16 +579,16 @@
         "type" : "group"
       },
       "guid" : "AGGREGATE",
-      "path" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy/Package.swift",
-      "projectDirectory" : "/Users/arvinth/Desktop/iOSJourney/DynLibTest/Development/ArviCoreDy",
+      "path" : "/Users/arvinth/Desktop/iOSLib/DynLibTest/Package.swift",
+      "projectDirectory" : "/Users/arvinth/Desktop/iOSLib/DynLibTest",
       "projectIsPackage" : "true",
       "projectName" : "Aggregate",
       "targets" : [
-        "454da1d1bada10763dc382cb41cc50ba6acc551168da772f7bcc12c1cc73eb88",
-        "8c6ebe0e9da9eb38ce63f79e47b98fd632d0abeb21cd600a73a8a6bab77fbc92"
+        "85a2dbb5941b4bbc5c04d1f327db0b2edc070781a47fa9b1f8be76522af3a8ef",
+        "8b75899e5eb42f82c801d081ed646a4db19f1aaa29309eeb4c52b7a5cad8fda2"
       ]
     },
-    "signature" : "f7328028381b0b43413b70644c9bd93eb5cafee6e72d1c678a66dd8b0734a9f0",
+    "signature" : "3d6fe00422f1501b3481023020f672141cc6de56c394f26272aa3167daab96cc",
     "type" : "project"
   },
   {
@@ -630,13 +630,13 @@
       ],
       "dependencies" : [
         {
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest",
           "platformFilters" : [
 
           ]
         },
         {
-          "guid" : "PACKAGE-TARGET:ArviCoreDy",
+          "guid" : "PACKAGE-TARGET:DynamicTest",
           "platformFilters" : [
 
           ]
@@ -646,7 +646,7 @@
       "name" : "AllIncludingTests",
       "type" : "aggregate"
     },
-    "signature" : "454da1d1bada10763dc382cb41cc50ba6acc551168da772f7bcc12c1cc73eb88",
+    "signature" : "85a2dbb5941b4bbc5c04d1f327db0b2edc070781a47fa9b1f8be76522af3a8ef",
     "type" : "target"
   },
   {
@@ -688,13 +688,13 @@
       ],
       "dependencies" : [
         {
-          "guid" : "PACKAGE-PRODUCT:arvicoredy_ArviCoreDy.ArviCoreDy",
+          "guid" : "PACKAGE-PRODUCT:dynlibtest_DynamicTest.DynamicTest",
           "platformFilters" : [
 
           ]
         },
         {
-          "guid" : "PACKAGE-TARGET:ArviCoreDy",
+          "guid" : "PACKAGE-TARGET:DynamicTest",
           "platformFilters" : [
 
           ]
@@ -704,7 +704,7 @@
       "name" : "AllExcludingTests",
       "type" : "aggregate"
     },
-    "signature" : "8c6ebe0e9da9eb38ce63f79e47b98fd632d0abeb21cd600a73a8a6bab77fbc92",
+    "signature" : "8b75899e5eb42f82c801d081ed646a4db19f1aaa29309eeb4c52b7a5cad8fda2",
     "type" : "target"
   }
 ]

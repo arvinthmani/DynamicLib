@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'DynamicTest-product' in project 'DynamicTest'
+➜ Explicit dependency on target 'DynamicTest' in project 'DynamicTest'
+Target 'DynamicTest-product' in project 'DynamicTest'
+➜ Explicit dependency on target 'DynamicTest' in project 'DynamicTest'
+Target 'DynamicTest' in project 'DynamicTest' (no dependencies)
